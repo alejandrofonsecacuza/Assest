@@ -22,7 +22,7 @@ public class PlayerControler : MonoBehaviour
     void Start()
     {
         player=GetComponent<CharacterController>();//optener el Charapter Controller
-    PlayerSpeed=1.2f;//se inicializa la velocidad
+    PlayerSpeed=8.0f;//se inicializa la velocidad
     Gravity=9.81f;
     }
 
